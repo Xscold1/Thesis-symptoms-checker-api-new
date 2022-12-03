@@ -6,6 +6,7 @@ from fastapi import FastAPI, Path, Request
 from typing import Any, Optional, List, Dict, AnyStr
 from pandas import array
 from pydantic import BaseModel
+from joblib import dump, load
 from scipy.stats import mode
 import operator
 from sklearn.preprocessing import LabelEncoder
