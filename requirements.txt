@@ -1,12 +1,5 @@
+fastapi
 pandas
 numpy
-fastapi
-joblib
 scikit-learn
 scipy
-typing
-pydantic
-joblib
-seaborn
-matplotlib
-uvicorn
